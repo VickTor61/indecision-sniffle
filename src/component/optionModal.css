@@ -1,0 +1,63 @@
+.optionModal {
+  background-color: rgb(57, 9, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 3rem;
+  height: 5rem;
+  border-radius: 2px;
+  border-bottom: 3px solid rgb(57, 9, 63);
+  box-shadow: 1px 3px 3px rgb(14, 6, 15);
+}
+.optionModal > h1 {
+  cursor: pointer;
+}
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s ease-in-out;
+}
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal-content {
+  background-color: rgb(37, 32, 32);
+  box-shadow: 1.4px 1.3px 3px rgb(52, 50, 54);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: fit-content;
+  color: white;
+}
+
+.modal__title {
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+.modal__text {
+  word-break: break-all;
+  padding: 1rem 1rem;
+}
+.button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  color: white;
+  background-color: rgb(63, 10, 112);
+  border: none;
+  cursor: pointer;
+  box-shadow: 1.4px 1.3px 3px rgb(98, 66, 128);
+}

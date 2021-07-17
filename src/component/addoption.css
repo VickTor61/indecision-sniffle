@@ -1,0 +1,48 @@
+.addoption > form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.addoption > form > input {
+  flex: 0.85;
+  margin: 10px 0;
+  height: 2rem;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.822);
+  padding-left: 1rem;
+  background-color: rgb(196, 183, 183);
+  border-bottom: 3px solid rgb(57, 45, 59);
+}
+
+.addoption > form > button {
+  flex: 0.15;
+  margin: 0 5px;
+  height: 2rem;
+  background-color: rgb(57, 9, 63);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .addoption > form {
+    flex-direction: column;
+  }
+  .addoption > form > input {
+    width: 95%;
+    margin: 0 0 10px 0;
+    height: 2rem;
+    padding: 10px 0;
+  }
+  .addoption > form > button {
+    width: 95%;
+    margin: 0 0 10px 0;
+    height: 2rem;
+    padding: 10px 0;
+  }
+}

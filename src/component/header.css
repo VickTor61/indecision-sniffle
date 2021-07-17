@@ -1,0 +1,25 @@
+header {
+  background: rgba(0, 0, 0, 0.411);
+ 
+  color: white;
+  display: flex;
+  height: max-content;
+  padding: 1rem 0;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+}
+
+header > * {
+  margin-left: 4rem;
+}
+header > p {
+  color: rgb(155, 148, 148);
+  
+}
+@media only screen and (max-width: 500px) {
+  header {
+    width: 100%;
+   flex-shrink: 1;
+  }
+}

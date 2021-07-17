@@ -1,0 +1,17 @@
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 1rem;
+  align-items: center;
+  height: max-content;
+  border-bottom: 0.5px solid rgba(192, 174, 174, 0.233);
+  color: white;
+}
+.option-text {
+  word-break: break-all;
+  flex: 0.98;
+}
+
+.option > span:hover {
+  cursor: pointer;
+}

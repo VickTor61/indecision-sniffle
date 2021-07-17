@@ -1,0 +1,46 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+.f-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  color: rgb(196, 183, 183);
+  height: 3.5rem;
+  align-items: center;
+}
+
+.component-2 {
+  background-color: rgba(33, 38, 49, 0.863);
+}
+.component-3 {
+  background-color: rgb(75, 71, 71);
+}
+
+.form-border {
+  border-bottom: 1px solid rgba(206, 193, 193, 0.541);
+}
+
+.error-wrapper {
+  color: rgba(185, 14, 14, 0.781);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 700;
+  border-bottom: 1px solid red;
+  box-shadow: 0px 1px 7px red;
+  display: flex;
+  cursor: pointer;
+}
+
+.showmessage {
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
