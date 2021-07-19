@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/VickTor61/indecision-sniffle.git/static/css/main.aea680b0.chunk.css",
-    "main.js": "/VickTor61/indecision-sniffle.git/static/js/main.0913b291.chunk.js",
-    "main.js.map": "/VickTor61/indecision-sniffle.git/static/js/main.0913b291.chunk.js.map",
-    "runtime-main.js": "/VickTor61/indecision-sniffle.git/static/js/runtime-main.e606d0ac.js",
-    "runtime-main.js.map": "/VickTor61/indecision-sniffle.git/static/js/runtime-main.e606d0ac.js.map",
-    "static/js/2.ed9a5867.chunk.js": "/VickTor61/indecision-sniffle.git/static/js/2.ed9a5867.chunk.js",
-    "static/js/2.ed9a5867.chunk.js.map": "/VickTor61/indecision-sniffle.git/static/js/2.ed9a5867.chunk.js.map",
-    "static/js/3.ac835052.chunk.js": "/VickTor61/indecision-sniffle.git/static/js/3.ac835052.chunk.js",
-    "static/js/3.ac835052.chunk.js.map": "/VickTor61/indecision-sniffle.git/static/js/3.ac835052.chunk.js.map",
-    "index.html": "/VickTor61/indecision-sniffle.git/index.html",
-    "static/css/main.aea680b0.chunk.css.map": "/VickTor61/indecision-sniffle.git/static/css/main.aea680b0.chunk.css.map",
-    "static/js/2.ed9a5867.chunk.js.LICENSE.txt": "/VickTor61/indecision-sniffle.git/static/js/2.ed9a5867.chunk.js.LICENSE.txt"
+    "main.css": "/VickTor61/indecision-sniffle/static/css/main.aea680b0.chunk.css",
+    "main.js": "/VickTor61/indecision-sniffle/static/js/main.0913b291.chunk.js",
+    "main.js.map": "/VickTor61/indecision-sniffle/static/js/main.0913b291.chunk.js.map",
+    "runtime-main.js": "/VickTor61/indecision-sniffle/static/js/runtime-main.673757a1.js",
+    "runtime-main.js.map": "/VickTor61/indecision-sniffle/static/js/runtime-main.673757a1.js.map",
+    "static/js/2.ed9a5867.chunk.js": "/VickTor61/indecision-sniffle/static/js/2.ed9a5867.chunk.js",
+    "static/js/2.ed9a5867.chunk.js.map": "/VickTor61/indecision-sniffle/static/js/2.ed9a5867.chunk.js.map",
+    "static/js/3.ac835052.chunk.js": "/VickTor61/indecision-sniffle/static/js/3.ac835052.chunk.js",
+    "static/js/3.ac835052.chunk.js.map": "/VickTor61/indecision-sniffle/static/js/3.ac835052.chunk.js.map",
+    "index.html": "/VickTor61/indecision-sniffle/index.html",
+    "static/css/main.aea680b0.chunk.css.map": "/VickTor61/indecision-sniffle/static/css/main.aea680b0.chunk.css.map",
+    "static/js/2.ed9a5867.chunk.js.LICENSE.txt": "/VickTor61/indecision-sniffle/static/js/2.ed9a5867.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e606d0ac.js",
+    "static/js/runtime-main.673757a1.js",
     "static/js/2.ed9a5867.chunk.js",
     "static/css/main.aea680b0.chunk.css",
     "static/js/main.0913b291.chunk.js"
