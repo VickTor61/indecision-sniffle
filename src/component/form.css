@@ -27,13 +27,13 @@
 }
 
 .error-wrapper {
-  color: rgba(185, 14, 14, 0.781);
+  color: white;
   align-items: center;
   justify-content: center;
   padding: 10px;
   font-weight: 700;
-  border-bottom: 1px solid red;
-  box-shadow: 0px 1px 7px red;
+  border-bottom: 1px solid rgb(240, 229, 229);
+  box-shadow: 0px 1px 7px rgb(241, 216, 216);
   display: flex;
   cursor: pointer;
 }

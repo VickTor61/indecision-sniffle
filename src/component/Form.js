@@ -19,15 +19,18 @@ function Form() {
   }, [listItems.options]);
 
   const handleAddoption = (option) => {
-    if (!option) {
+    if (!option || option === "") {
       return setErrorhandler("Enter valid value to add item");
     } else if (listItems.options.indexOf(option) > -1) {
-      return setErrorhandler("This option already exists!");
+      return setErrorhandler(`This option already exists!`);
+    } else if (option.stringify().length < 4) {
+      return setErrorhandler(`option must be more than 3 characters`);
+    } else {
+      setListItems((prevState) => ({
+        ...prevState,
+        options: prevState.options.concat(option),
+      }));
     }
-    setListItems((prevState) => ({
-      ...prevState,
-      options: prevState.options.concat(option),
-    }));
   };
 
   const removeAll = () => setListItems({ options: [] });
@@ -62,13 +65,14 @@ function Form() {
             <h3 className="showmessage">List is empty add an item!</h3>
           )}
           <div className="form-border">
-            {listItems.options.map((option) => (
-              <Option
-                key={option}
-                optionText={option}
-                handleDeleteOption={handleDeleteOption}
-              />
-            ))}
+            {listItems.options.length >= 0 &&
+              listItems.options.map((option) => (
+                <Option
+                  key={option}
+                  optionText={option}
+                  handleDeleteOption={handleDeleteOption}
+                />
+              ))}
           </div>
           <div className="form">
             <AddOption validateOption={handleAddoption} />
