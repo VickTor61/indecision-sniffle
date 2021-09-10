@@ -8,7 +8,6 @@ function Indecision() {
   return (
     <div className="indecision" >
       <Header />
-     
      <Form />
     </div>
   );

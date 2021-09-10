@@ -23,7 +23,7 @@ function Form() {
       return setErrorhandler("Enter valid value to add item");
     } else if (listItems.options.indexOf(option) > -1) {
       return setErrorhandler(`This option already exists!`);
-    } else if (option.stringify().length < 4) {
+    } else if (option.length < 4) {
       return setErrorhandler(`option must be more than 3 characters`);
     } else {
       setListItems((prevState) => ({
