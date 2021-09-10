@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/VickTor61/indecision-sniffle",
+  "homepage": "https://github.com/VickTor61/indecision-sniffle/",
   "name": "indecision-app",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "axios": "^0.21.1",
     "firebase": "^8.10.0",
     "gh-pages": "^3.2.3",
+    "netlify-cli": "^6.8.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.3",
